@@ -26,4 +26,11 @@ public class Rejection implements java.io.Serializable {
 		this.reason = reason;
 	}
 
+	@Override
+	public String toString() {
+		return "{" +
+			" reason='" + reason + "'" +
+			"}";
+	}
+
 }

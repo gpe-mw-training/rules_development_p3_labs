@@ -4,10 +4,10 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.acme.insurance</groupId>
   <artifactId>policyquote</artifactId>
-  <version>1.0.0</version>
+  <version>1.0</version>
   <packaging>kjar</packaging>
   <name>policyquote</name>
-  <description>Policy Quote Project</description>
+  <description></description>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>

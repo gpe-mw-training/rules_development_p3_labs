@@ -48,7 +48,7 @@
         <condition-column52>
           <typedDefaultValue>
             <valueString></valueString>
-            <dataType>STRING</dataType>
+            <dataType>NUMERIC_INTEGER</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
@@ -74,7 +74,7 @@
           <typedDefaultValue>
             <valueNumeric class="int">0</valueNumeric>
             <valueString></valueString>
-            <dataType>NUMERIC_INTEGER</dataType>
+            <dataType>STRING</dataType>
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
@@ -316,7 +316,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>excelent credit</valueString>
+        <valueString>excellent credit</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>

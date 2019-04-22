@@ -7,7 +7,7 @@ import org.acme.insurance.Rejection;
 rule "TooOld"
 	dialect "mvel"
 	when
-		Driver( age > 80 )
+		Driver( age > 100 )
 	then
 		Rejection fact0 = new Rejection();
 		fact0.setReason( "Too Old" );

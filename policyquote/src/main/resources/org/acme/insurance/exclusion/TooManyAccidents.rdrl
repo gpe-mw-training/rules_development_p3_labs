@@ -4,13 +4,13 @@ import java.lang.Number;
 import org.acme.insurance.Driver;
 import org.acme.insurance.Rejection;
 
-rule "TooManyTickets"
+rule "TooManyAccidents"
 	dialect "mvel"
 	when
-		Driver( numberOfTickets > 6 )
+		Driver( numberOfAccidents > 4 )
 	then
 		Rejection fact0 = new Rejection();
-		fact0.setReason( "Too Many Tickets" );
+		fact0.setReason( "Too Many Accidents" );
 		insert( fact0 );
 		System.out.println("fired rule " + kcontext.getRule().getName());
 end
