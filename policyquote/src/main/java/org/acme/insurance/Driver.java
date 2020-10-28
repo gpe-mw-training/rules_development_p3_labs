@@ -98,15 +98,9 @@ public class Driver implements java.io.Serializable {
 
 	@Override
 	public String toString() {
-		return "{" +
-			" driverName='" + driverName + "'" +
-			", age='" + age + "'" +
-			", ssn='" + ssn + "'" +
-			", dlNumber='" + dlNumber + "'" +
-			", numberOfAccidents='" + numberOfAccidents + "'" +
-			", numberOfTickets='" + numberOfTickets + "'" +
-			", creditScore='" + creditScore + "'" +
-			"}";
+		return "Driver [driverName=" + driverName + ", age=" + age + ", ssn=" + ssn + ", dlNumber=" + dlNumber
+				+ ", numberOfAccidents=" + numberOfAccidents + ", numberOfTickets=" + numberOfTickets + ", creditScore="
+				+ creditScore + "]";
 	}
 
 }

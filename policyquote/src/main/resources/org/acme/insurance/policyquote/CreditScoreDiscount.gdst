@@ -8,6 +8,10 @@
     <hideColumn>false</hideColumn>
     <width>150</width>
   </descriptionCol>
+  <ruleNameColumn>
+    <hideColumn>true</hideColumn>
+    <width>150</width>
+  </ruleNameColumn>
   <metadataCols/>
   <attributeCols>
     <attribute-column52>
