@@ -9,10 +9,11 @@ rule "NewerVehicleSurcharge"
 	no-loop true
 	lock-on-active true
 	when
+		There is a Driver
 		There is a Policy
+		- vehicle year is greater than 2004
 		- policy type is 'AUTO'
 		- price is greater than 0
-		- vehicle year is greater than 2016
 	then
 		Add surcharge 100 to Policy
 		logRule

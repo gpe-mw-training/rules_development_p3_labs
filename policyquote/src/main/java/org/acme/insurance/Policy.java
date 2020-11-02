@@ -86,14 +86,8 @@ public class Policy implements java.io.Serializable {
 
 	@Override
 	public String toString() {
-		return "{" +
-			" requestDate='" + requestDate + "'" +
-			", policyType='" + policyType + "'" +
-			", vehicleYear='" + vehicleYear + "'" +
-			", price='" + price + "'" +
-			", priceDiscount='" + priceDiscount + "'" +
-			", driver='" + driver + "'" +
-			"}";
+		return "Policy [requestDate=" + requestDate + ", policyType=" + policyType + ", vehicleYear=" + vehicleYear
+				+ ", price=" + price + ", priceDiscount=" + priceDiscount + ", driver=" + driver + "]";
 	}
 
 }
